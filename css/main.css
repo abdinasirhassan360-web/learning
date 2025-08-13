@@ -1,3 +1,54 @@
 body{
     padding: 10px;
 }
+form {
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: 
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 1em;
+  font-weight: 600;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+select {
+  background-color: #fff;
+}
+
+body {
+  background-color: #1b1b32;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f6f7;
+}
+
+input[type="radio"] {
+  position: relative;
+  top: 2px;
+  margin-right: 0.5em;
+
+label {
+  display: block;
+  margin-top: 0.5em;
+  font-weight: normal;
